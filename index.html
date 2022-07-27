@@ -1,10 +1,30 @@
----
-title: 第二周-個人網頁
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>第二周-個人網頁</title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <header class="header text-white">
+    <div>
+      <p class="lh-42">Here’s</p>
+      <h1 class="header__title mb-5">JOANNE</h1>
+      <p class="mb-40">Founder of “XXXD Official’’<br> & Graphic Designer</p>
+      <ul class="header__list">
+        <li class="mr-3"><img src="./assets/images/iconfinder_18_social_2609550.svg" alt=""></li>
+        <li class="mr-3"><img src="./assets/images/iconfinder_1_social_2609541.svg" alt=""></li>
+        <li class="mr-3"><img src="./assets/images/iconfinder_25_social_2609558.svg" alt=""></li>
+        <li><img src="./assets/images/iconfinder_6_social_2609577.svg" alt=""></li>
+      </ul>
+    </div>
+  </header>
+
+  
 <section class="about">
   <div>
     <h2 class="about__title mb-40 mt-56">About</h2>
@@ -75,3 +95,16 @@ current: index
     </ul>
   </div>
 </section>
+
+  <footer class="footer text-white bg-dark">
+    <h2 class="footer__title mb-3">Contact</h2>
+    <ul class="footer__list">
+      <li class="mb-3">Mail：<a href="mailto:xxxd@hexschool.com">xxxd@hexschool.com</a></li>
+      <li>Phone Number：<a href="tel:+886-910123456">0910123456</a></li>
+    </ul>
+  </footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
