@@ -1,0 +1,78 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.img-fluid {
+  height: auto;
+  max-width: 100%;
+}
+.text-white {
+  color: $white;
+}
+.lh-42 {
+  line-height: 42px;
+}
+.bg-dark {
+  background: #000000;
+}
+.mb-12 {
+  margin-bottom: 12px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-28 {
+  margin-bottom: 28px;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+.mb-56 {
+  margin-bottom: 56px;
+}
+.mt-56 {
+  margin-top: 56px;
+}
+.mb-68 {
+  margin-bottom: 68px;
+}
+.pb-24 {
+  padding-bottom: 24px;
+}
+.pt-56 {
+  padding-top: 56px;
+}
+@each $name,$value in $spacers {
+  .mt-#{$name} {
+    margin-top: $value;
+  }
+  .mb-#{$name} {
+    margin-bottom: $value;
+  }
+  .mr-#{$name} {
+    margin-right: $value;
+  }
+  .ml-#{$name} {
+    margin-left: $value;
+  }
+}
+@each $name,$value in $spacers {
+  .pt-#{$name} {
+    padding-top: $value;
+  }
+  .pb-#{$name} {
+    padding-bottom: $value;
+  }
+  .pr-#{$name} {
+    padding-right: $value;
+  }
+  .pl-#{$name} {
+    padding-left: $value;
+  }
+}
